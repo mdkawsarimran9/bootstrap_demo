@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.box_model{
+    display: flex;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.box_model .boxs{
+    width:400px;
+    height:400px;
+    /* flex-grow: 1; */
+    border:2px solid black;
+}
+.boxs img{
+    width:100%;
+    height:100%;
+}
